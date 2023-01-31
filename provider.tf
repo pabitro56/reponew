@@ -1,4 +1,5 @@
-resource "aws_instance" "web-server-linux" {
-  ami           = "ami-05fa00d4c63e32376"
-  instance_type = "t2.micro"
+provider "aws" {
+  region     = "us-east-1"
+  access_key = "AKIAWIIGXQ5F4KCXAHYB"
+  secret_key = "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"
 }
