@@ -16,7 +16,7 @@ resource "aws_internet_gateway" "internet-gateway" {
     Name = "internet_gateway"
   }
 }
-# Create Public Subnet 1
+# Create Public Subnet 111
 # terraform aws create subnet
 resource "aws_subnet" "public-subnet-1" {
   vpc_id                  = aws_vpc.vpc.id
